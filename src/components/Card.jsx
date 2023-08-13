@@ -1,9 +1,11 @@
-import propTypes from "prop-types";
-import React from "react";
+/* eslint-disable linebreak-style */
+// eslint-disable-next-line linebreak-style
+import propTypes from 'prop-types';
+// eslint-disable-next-line linebreak-style
+import React from 'react';
 
 function Card({ data }) {
-
-    const { location, current, } = data;
+    const { location, current } = data;
 
     return (
 
@@ -25,7 +27,7 @@ function Card({ data }) {
 
         </div>
 
-    )
+    );
 }
 
 export default Card;
