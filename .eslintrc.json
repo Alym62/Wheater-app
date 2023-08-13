@@ -15,8 +15,5 @@
     "plugins": [
         "react"
     ],
-    "rules": {},
-    "editor.codeActionsOnSave": {
-        "source.fixAll.eslint": true
-    }
+    "rules": {}
 }
